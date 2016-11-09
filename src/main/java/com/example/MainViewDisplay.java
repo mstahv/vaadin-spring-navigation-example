@@ -3,8 +3,7 @@ package com.example;
 
 import com.vaadin.navigator.View;
 import com.vaadin.navigator.ViewDisplay;
-import com.vaadin.spring.annotation.SpringComponent;
-import com.vaadin.spring.annotation.UIScope;
+import com.vaadin.spring.annotation.SpringViewDisplay;
 import com.vaadin.ui.Component;
 import com.vaadin.ui.Panel;
 import com.vaadin.ui.themes.ValoTheme;
@@ -12,8 +11,7 @@ import com.vaadin.ui.themes.ValoTheme;
 /**
  * @author mstahv
  */
-@UIScope
-@SpringComponent
+@SpringViewDisplay
 public class MainViewDisplay extends Panel implements ViewDisplay {
 
     public MainViewDisplay() {
